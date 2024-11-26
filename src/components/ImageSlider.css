@@ -1,0 +1,33 @@
+.ImageSlider-box{
+    width: 90%;
+    height:30vh;
+    background-color: transparent;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.ImageSlider-box .EventName{
+display: flex;
+justify-content: flex-end;
+margin-right: 10px;
+}
+.ImageSlider-box .headline{
+    margin-left: 10px;
+    
+    
+}
+
+.imageSlide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    
+}
