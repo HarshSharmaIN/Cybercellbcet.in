@@ -7,6 +7,8 @@ import FooterSection from "./components/FooterSection";
 import EventPoster from "./components/EventPoster";
 import About from "./components/About";
 import MemberCard from "./components/MemberCard";
+import Contact from "./components/Contact";
+import { BrowserRouter, Router, Route } from "react-router-dom";
 
 const App = () => {
   return (
