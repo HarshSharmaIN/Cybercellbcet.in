@@ -1,0 +1,38 @@
+.main_nav {
+  height: 8vh;
+  width: 100vw;
+  background-color: darkgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+.head {
+  margin-left: 2%;
+  font-size: 4vh;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+}
+ul {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2%;
+}
+li {
+  list-style: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* background-color: aqua; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vh;
+  width: 5vw;
+}
+li:hover {
+  scale: 1.2;
+  transition: all 0.4s ease-in-out;
+  background-color: chartreuse;
+}
