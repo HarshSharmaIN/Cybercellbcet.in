@@ -4,6 +4,9 @@ import TestimonialCard from "./components/TestimonialCard";
 import Navbar from "./components/Navbar";
 import ImageSlider from "./components/ImageSlider";
 import FooterSection from "./components/FooterSection";
+import EventPoster from "./components/EventPoster";
+import About from "./components/About";
+import MemberCard from "./components/MemberCard";
 import Contact from "./components/Contact";
 import { BrowserRouter, Router, Route } from "react-router-dom";
 
@@ -27,6 +30,9 @@ const App = () => {
       
       <TestimonialCard />
       <FooterSection />
+      <EventPoster />
+      <About />
+      <MemberCard />
     </React.Fragment>
   );
 };
