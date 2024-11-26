@@ -1,0 +1,30 @@
+.testimonial-box > h3{
+    text-align: center;
+}
+.testimonial-container{
+    background-color: #f47b7b;
+    width: 90%;
+    display: flex;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin: auto;
+}
+
+.message-box{
+    /* background-color: #f59118; */
+    width: 80%;
+    margin-left: 15px;
+}
+
+.testimonialImage
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    /* width: 50px; */
+}
+.testimonialImage > img{
+    width: 110px;
+    border-radius: 12px;
+}
