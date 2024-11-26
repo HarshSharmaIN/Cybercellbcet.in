@@ -4,6 +4,8 @@ import TestimonialCard from "./components/TestimonialCard";
 import Navbar from "./components/Navbar";
 import ImageSlider from "./components/ImageSlider";
 import FooterSection from "./components/FooterSection";
+import Contact from "./components/Contact";
+import { BrowserRouter, Router, Route } from "react-router-dom";
 
 const App = () => {
   return (
