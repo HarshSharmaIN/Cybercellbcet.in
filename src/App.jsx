@@ -8,6 +8,7 @@ import EventPoster from "./components/EventPoster";
 import About from "./components/About";
 import MemberCard from "./components/MemberCard";
 import Contact from "./components/Contact";
+import Team from "./components/Team";
 import { BrowserRouter, Router, Route } from "react-router-dom";
 
 const App = () => {
@@ -33,6 +34,8 @@ const App = () => {
       <EventPoster />
       <About />
       <MemberCard />
+      <Contact />
+      <Team />
     </React.Fragment>
   );
 };
