@@ -1,0 +1,23 @@
+.Team-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 30vh;
+    background-color: #ffbdbd;
+    position: relative;
+    margin-bottom: 25px; /* test */
+}
+.team-left-section{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 30%;
+    background-color: #fff;
+    height: 80%;
+    margin: 1.2em;
+    justify-content: flex-start;
+}
+.position{
+    display: block;
+    margin: 10px;
+}
